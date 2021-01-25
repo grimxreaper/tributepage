@@ -1,0 +1,83 @@
+/* html {
+	
+	min-height: 100%;
+	min-width: 100%;
+	background-image: url("https://images.pexels.com/photos/3199399/pexels-photo-3199399.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-postion: center center;
+
+} */
+
+h1 {
+	position: relative;
+	z-index: 2;
+	font-family: 'Prata', serif;
+	color: #cc3300;
+	font-weight: 200;
+	font-size: 3em;
+	text-align: center;
+	background-color: #ffece6;
+	border-radius: 25px;
+	
+}
+
+#img-div {
+  background: #ffece6;
+  padding: 10px;
+  margin: 0;
+
+}
+
+#image {
+/* 	background: white;
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+	opacity: 0.9;
+	display: block;
+	margin: 0 auto;
+  width: 30%;
+	height: auto; */
+	
+	background: white;
+	padding: 10px;
+	max-width: 30%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+	
+}
+
+#img-caption {
+	color: #330d00;
+
+	margin: 15px 0 5px 0;
+	font-size: 1.1rem;
+	text-align: center;
+	font-family: 'Cormorant Garamond',    serif;
+}
+
+h3 {
+	
+	border-radius: 25px;
+	text-align: center;
+	color: #330d00;
+	font-family: 'Cormorant Garamond',    serif;
+	font-size: 1.4em;
+	font-weight: bold;
+	
+}
+ul {
+	text-align: left;
+	line-height: 1.8;
+	background-color: #f2d9d9;
+	font-color: white;
+	border-radius: 25px;
+	color: #330d00;
+	font-family:'Quattrocento', serif;
+	font-size: 1.1em;
+}
+li {
+ font-family:'Quattrocento', serif;
+}
